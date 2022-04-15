@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+.test {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+/*# sourceMappingURL=styles.css.map */
