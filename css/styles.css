@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'UniversCyr 500';
   src: url("../fonts/UniversLTCYR-500.eot");
-  src: url("../fonts/UniversLTCYR-500.woff2") format("woff2"), url("../fonts/UniversLTCYR-500.woff") format("woff");
-  font-weight: 500;
+  src: url("../fonts/UniversLTCYR-500.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'UniversCyr 700';
   src: url("../fonts/UniversLTCYR-700.eot");
-  src: url("../fonts/UniversLTCYR-700.woff2") format("woff2"), url("../fonts/UniversLTCYR-700.woff") format("woff");
+  src: url("../fonts/UniversLTCYR-700.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -20,6 +20,10 @@
 
 body {
   background: #E5E5E5;
+}
+
+button {
+  cursor: pointer;
 }
 
 .container {
@@ -35,6 +39,10 @@ body {
   justify-content: space-between;
   padding-left: 37px;
   box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-icon svg {
+  cursor: pointer;
 }
 
 .wrapper-logo {
@@ -53,9 +61,9 @@ body {
 }
 
 .schedule {
-  height: 100%;
+  position: relative;
+  height: 90%;
   padding-top: 192px;
-  padding-bottom: 75px;
   background-image: url(../images/BG-schedule.png);
   background-size: cover;
 }
@@ -89,13 +97,12 @@ body {
 
 .dynamics__text {
   max-width: 250px;
-  max-height: 220px;
-  padding: 18px;
+  padding: 25px;
   font-family: 'UniversCyr 500';
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 15px;
+  line-height: 20px;
   color: #CE005B;
   border: 2px solid #CE005B;
   border-radius: 48px;
@@ -130,5 +137,65 @@ body {
   background: #FFFFFF;
   box-shadow: 2px 2px 6px rgba(2, 0, 91, 0.2), inset -12px -12px 24px rgba(2, 0, 91, 0.1);
   border-radius: 800px;
+}
+
+.dynamics__button:hover {
+  box-shadow: inset 2px 2px 6px 6px rgba(0, 12, 70, 0.2);
+}
+
+.dynamics__button1 {
+  background: linear-gradient(135deg, #CE005B 15.36%, #FF57A1 84.64%);
+  box-shadow: inset 2px 2px 6px rgba(0, 12, 70, 0.5);
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+}
+
+.popup__text {
+  padding: 44px 31px;
+  font-family: 'UniversCyr 500';
+  font-size: 15px;
+  color: #5E6C78;
+}
+
+.popup__button__close {
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  right: 50%;
+  width: 48px;
+  height: 48px;
+  background: #F7F7FC;
+  box-shadow: inset 2px 2px 6px rgba(0, 12, 70, 0.2);
+  border: 1px solid rgba(0, 12, 70, 0.2);
+  border-radius: 200px;
+}
+
+.popup__button__close::before {
+  position: absolute;
+  content: url(../images/popup-button.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #FF57A1;
+  box-shadow: 1.5px 1.5px 4.5px rgba(2, 0, 91, 0.2), inset -12px -12px 24px #CE005B;
+  border-radius: 600px;
+}
+
+.popup img {
+  width: 100%;
+  height: 85%;
 }
 /*# sourceMappingURL=styles.css.map */
