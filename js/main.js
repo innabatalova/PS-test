@@ -3,18 +3,19 @@ const main = () => {
   const dynamicsPicture = document.querySelector(".dynamics__picture");
   const imgRed = dynamicsPicture.querySelector(".dynamics__picture__red");
   const imgGrey = dynamicsPicture.querySelector(".dynamics__picture__gray");
-  const dynamicsButtons = document.querySelector(".dynamics__buttons");
-  const dynamicsButton1 = document.querySelector(".dynamics__button1");
-  const dynamicsButton2 = document.querySelector(".dynamics__button2");
-  const dynamicsButton3 = document.querySelector(".dynamics__button3");
+  const dynamicsButtons = document.querySelector(".dynamics-buttons");
+  const dynamicsButton1 = document.querySelector(".dynamics-buttons__button1");
+  const dynamicsButton2 = document.querySelector(".dynamics-buttons__button2");
+  const dynamicsButton3 = document.querySelector(".dynamics-buttons__button3");
   const tl = gsap.timeline();
 
   //переключение слайдов
   dynamicsButtons.addEventListener("click", (event) => {
     event.preventDefault();
 
-    const dynamicsButtonsAll =
-      dynamicsButtons.querySelectorAll(".dynamics__button");
+    const dynamicsButtonsAll = dynamicsButtons.querySelectorAll(
+      ".dynamics-buttons__button"
+    );
 
     dynamicsButtonsAll.forEach((item) => {
       item.style.background = "#F7F7FC";

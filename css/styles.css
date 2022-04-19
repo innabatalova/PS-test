@@ -109,7 +109,7 @@ button {
   border-radius: 48px;
 }
 
-.dynamics__buttons {
+.dynamics-buttons {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -117,7 +117,7 @@ button {
   margin: auto;
 }
 
-.dynamics__button {
+.dynamics-buttons__button {
   position: relative;
   width: 50px;
   height: 50px;
@@ -127,7 +127,7 @@ button {
   border-radius: 200px;
 }
 
-.dynamics__button::before {
+.dynamics-buttons__button::before {
   position: absolute;
   content: "";
   width: 32px;
@@ -140,11 +140,11 @@ button {
   border-radius: 800px;
 }
 
-.dynamics__button:hover {
+.dynamics-buttons__button:hover {
   box-shadow: inset 2px 2px 6px 6px rgba(0, 12, 70, 0.2);
 }
 
-.dynamics__button1 {
+.dynamics-buttons__button1 {
   background: linear-gradient(135deg, #CE005B 15.36%, #FF57A1 84.64%);
   box-shadow: inset 2px 2px 6px rgba(0, 12, 70, 0.5);
 }

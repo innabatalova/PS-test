@@ -2,7 +2,7 @@ const popup = () => {
   const buttonPopupOpen = document.querySelector(".button-popup-open");
   const buttonPopupClose = document.querySelector(".popup__button__close");
   const popup = document.querySelector(".popup");
-  const dynamicsButtons = document.querySelector(".dynamics__buttons");
+  const dynamicsButtons = document.querySelector(".dynamics-buttons");
   const tl = gsap.timeline();
 
   //открытие/закрытие попапа
