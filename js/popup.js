@@ -9,8 +9,7 @@ const popup = () => {
   const openPopup = () => {
     setTimeout(function () {
       dynamicsButtons.style.display = "none";
-    }, 1800);
-
+    }, 1000);
     popup.style.display = "block";
     tl.to(".popup", {
       duration: 1,
