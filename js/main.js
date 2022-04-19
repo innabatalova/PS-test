@@ -62,12 +62,12 @@ const main = () => {
     dynamicsText.innerText =
       "При оценке первичных и вторичных показателей эффективности, конечных значений и динамики показателей результаты в группах препарата Тиотропиум® были сопоставимы с препаратом Спирива®";
 
-    dynamicsPicture.style.backgroundImage = "url(../images/legends-1.png)";
+    dynamicsPicture.style.backgroundImage = "url(./images/legends-1.png)";
 
     addTable();
 
-    imgRed.src = "/images/gr_red-1.png";
-    imgGrey.src = "/images/gr_gray-1.png";
+    imgRed.src = "./images/gr_red-1.png";
+    imgGrey.src = "./images/gr_gray-1.png";
 
     addGrafic();
     tl.restart();
@@ -78,12 +78,12 @@ const main = () => {
 
     dynamicsText.innerText =
       "При оценке первичных и вторичных показателей эффективности, конечных значений и динамики показателей результаты в группах препарата Тиотропиум® были сопоставимы с препаратом Спирива®";
-    dynamicsPicture.style.backgroundImage = "url(../images/legends-2.png)";
+    dynamicsPicture.style.backgroundImage = "url(./images/legends-2.png)";
 
     addTable();
 
-    imgRed.src = "/images/gr_red-2.png";
-    imgGrey.src = "/images/gr_gray-2.png";
+    imgRed.src = "./images/gr_red-2.png";
+    imgGrey.src = "./images/gr_gray-2.png";
 
     addGrafic();
     tl.restart();
@@ -94,12 +94,12 @@ const main = () => {
 
     dynamicsText.innerText =
       "В основной группе на фоне применения исследуемого препарата выявлена положительная динамика (прирост) ФЖЕЛ (л): среднее значение прироста составило 0,21 л, что говорит о сопоставимости групп по вторичному показателю эффективности динамики спирометрических показателей (ФЖЕЛ)";
-    dynamicsPicture.style.backgroundImage = "url(../images/legends-3.png)";
+    dynamicsPicture.style.backgroundImage = "url(./images/legends-3.png)";
 
     addTable();
 
-    imgRed.src = "/images/gr_red-3.png";
-    imgGrey.src = "/images/gr_gray-3.png";
+    imgRed.src = "./images/gr_red-3.png";
+    imgGrey.src = "./images/gr_gray-3.png";
 
     addGrafic();
     tl.restart();
