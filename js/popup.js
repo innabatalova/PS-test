@@ -7,9 +7,8 @@ const popup = () => {
 
   //открытие/закрытие попапа
   const openPopup = () => {
-    setTimeout(function () {
-      dynamicsButtons.style.display = "none";
-    }, 1000);
+    dynamicsButtons.style.display = "none";
+
     popup.style.display = "block";
     tl.to(".popup", {
       duration: 1,
