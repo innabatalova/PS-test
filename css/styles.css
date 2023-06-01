@@ -1,19 +1,17 @@
 @font-face {
-  font-family: 'UniversCyr 500';
+  font-family: "UniversCyr 500";
   src: url("../fonts/UniversLTCYR-500.eot");
   src: url("../fonts/UniversLTCYR-500.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'UniversCyr 700';
+  font-family: "UniversCyr 700";
   src: url("../fonts/UniversLTCYR-700.eot");
   src: url("../fonts/UniversLTCYR-700.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -73,7 +71,6 @@ button {
   padding-left: 37px;
   margin-bottom: 65px;
 }
-
 .dynamics__picture {
   position: relative;
   width: 688px;
@@ -82,7 +79,6 @@ button {
   background-image: url(../images/legends-1.png);
   background-size: cover;
 }
-
 .dynamics__picture img {
   position: absolute;
   width: 300px;
@@ -91,15 +87,13 @@ button {
   transform: translate(-50%, -50%);
   opacity: 0;
 }
-
 .dynamics__picture__red {
   left: 53% !important;
 }
-
 .dynamics__text {
   max-width: 250px;
   padding: 25px;
-  font-family: 'UniversCyr 500';
+  font-family: "UniversCyr 500";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -108,7 +102,6 @@ button {
   border: 2px solid #CE005B;
   border-radius: 48px;
 }
-
 .dynamics-buttons {
   display: flex;
   align-items: center;
@@ -116,7 +109,6 @@ button {
   width: 175px;
   margin: auto;
 }
-
 .dynamics-buttons__button {
   position: relative;
   width: 50px;
@@ -126,7 +118,6 @@ button {
   border: 1px solid rgba(0, 12, 70, 0.2);
   border-radius: 200px;
 }
-
 .dynamics-buttons__button::before {
   position: absolute;
   content: "";
@@ -139,11 +130,9 @@ button {
   box-shadow: 2px 2px 6px rgba(2, 0, 91, 0.2), inset -12px -12px 24px rgba(2, 0, 91, 0.1);
   border-radius: 800px;
 }
-
 .dynamics-buttons__button:hover {
   box-shadow: inset 2px 2px 6px 6px rgba(0, 12, 70, 0.2);
 }
-
 .dynamics-buttons__button1 {
   background: linear-gradient(135deg, #CE005B 15.36%, #FF57A1 84.64%);
   box-shadow: inset 2px 2px 6px rgba(0, 12, 70, 0.5);
@@ -158,14 +147,12 @@ button {
   right: 0;
   z-index: 99;
 }
-
 .popup__text {
   padding: 44px 31px;
-  font-family: 'UniversCyr 500';
+  font-family: "UniversCyr 500";
   font-size: 15px;
   color: #5E6C78;
 }
-
 .popup__button__close {
   position: absolute;
   bottom: 12%;
@@ -178,7 +165,6 @@ button {
   border: 1px solid rgba(0, 12, 70, 0.2);
   border-radius: 200px;
 }
-
 .popup__button__close::before {
   position: absolute;
   content: url(../images/popup-button.svg);
@@ -198,5 +184,4 @@ button {
 .popup img {
   width: 100%;
   height: 85%;
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
